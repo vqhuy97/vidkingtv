@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.VidKingTV" parent="@style/Theme.Leanback">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorPrimary">#0dcaf0</item>
+        <item name="android:colorAccent">#0dcaf0</item>
+    </style>
+</resources>
