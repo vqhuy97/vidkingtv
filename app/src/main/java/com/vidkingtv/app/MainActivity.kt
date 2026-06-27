@@ -87,10 +87,11 @@ class MainActivity : Activity() {
                 // ── KEY ad-blocking settings ──
                 setSupportMultipleWindows(false)
                 javaScriptCanOpenWindowsAutomatically = false
-                // Disable third-party cookies for the WebView
-                CookieManager.getInstance().setAcceptThirdPartyCookies(this@apply, false)
                 userAgentString = userAgentString + " VidKingTV/1.0"
             }
+
+            // Disable third-party cookies for the WebView (Đã sửa lỗi tham chiếu ở đây)
+            CookieManager.getInstance().setAcceptThirdPartyCookies(this, false)
 
             // ═══ Layer 1: Block ad requests at network level ═══
             webViewClient = object : WebViewClient() {
