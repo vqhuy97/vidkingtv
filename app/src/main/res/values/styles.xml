@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme for Android TV. -->
+    <style name="AppTheme" parent="Theme.Leanback">
+        <!-- Tùy chỉnh màu sắc hoặc các thuộc tính khác ở đây nếu cần -->
+    </style>
+</resources>
