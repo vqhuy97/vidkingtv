@@ -41,4 +41,5 @@ dependencies {
     // Khai báo các thư viện của bạn ở đây. Ví dụ:
     // implementation("androidx.core:core-ktx:1.12.0")
     // implementation("androidx.appcompat:appcompat:1.6.1")
+implementation("androidx.leanback:leanback:1.0.0")
 }
